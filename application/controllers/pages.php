@@ -201,7 +201,7 @@ class Pages extends CI_Controller {
 		$footer['info'] = $this->Model_Admin->getComInfo();
 
 		$this->load->view('templates/header',$this->data);
-		$this->load->view('pages/website/CompletedHistory',$data);
+		$this->load->view('pages/website/fullHistory',$data);
 		$this->load->view('templates/footer',$footer);
 	}
 
