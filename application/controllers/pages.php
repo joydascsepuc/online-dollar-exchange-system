@@ -248,7 +248,7 @@ class Pages extends CI_Controller {
 			$data['data'] = $this->Model_Pages->getSingleOrder($id);
 			$footer['info'] = $this->Model_Admin->getComInfo();
 			$this->load->view('templates/header', $this->data);
-			$this->load->view('pages/website/Orderdetails',$data);
+			$this->load->view('pages/website/orderdetailsupdated',$data);
 			$this->load->view('templates/footer',$footer);
 		}
 	}
