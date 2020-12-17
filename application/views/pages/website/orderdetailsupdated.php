@@ -15,12 +15,12 @@
 		 	<tbody>
 		 		<?php foreach($data as $value):?>
 			 		<tr>
-			 			<th>Customer Name</th>
-			 			<td><?php echo $value['user_id']; ?></td>
-			 		</tr>
-			 		<tr>
 			 			<th>Invoice</th>
 			 			<td><?php echo $value['invoice']; ?></td>
+			 		</tr>
+			 		<tr>
+			 			<th>Customer Name</th>
+			 			<td><?php echo $value['user_id']; ?></td>
 			 		</tr>
 			 		<tr>
 			 			<th>From</th>
